@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.teks {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #650304;
+}
+
+marquee {
+    animation: infinite 2s linear;
+}
+
+.desc {
+    font: 'Poppins', sans-serif;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+.category-custom {
+    margin-top: 3rem;
+    background-color: white;
+}
+
+.cat-txt {
+    margin-top: 1.5rem;
+}
+
+.cat-clck{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.cat-clck:hover {
+    color: black;
+}
+
+.cat-card {
+    width: 2rem;
+    height: 12rem;
+    margin: 1.2rem;
+    border-radius: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cat-card img {
+   width: 65%;
+   padding-top: 10px;
+}
+
+.cat-card:hover {
+    color: black;
+    box-shadow: #85182a 1px 1px 20px 5px;
+    scale: 1.02;
+    transition: 0.2s ease;
+}
+
+.btn-mar {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn.btn-ctm {
+    background-color: #bf0603;
+    color: white;
+}
+.btn.btn-ctm:hover {
+    background-color: #85182a;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 20px;
+  }
+  .spec-label {
+    font-weight: bold;
+  }
